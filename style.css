@@ -1,9 +1,13 @@
 .nav-background{
-	background-color: #45619d
+	background-color: #45619d;
+	font-size: 13px;
 }
 .text-facebook{
-	font-weight: bold;
+	font-size: 30px;
 }
 .btn-color{
-	background-color: #44519d
+	background-color: #4165af;
+	border: none;
+	color: white;
+	font-weight: bold
 }

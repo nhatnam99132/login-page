@@ -8,16 +8,37 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark nav-background">
-        <a class="navbar-brand text-facebook" href="#">facebook</a>
-        <label class="text-light mr-2"><small>Email hoặc điện thoại</small></label>
-        <input type="text">
-        <label class="text-light mr-2"><small>Mật khẩu</small></label>
-        <input type="Password">
-        <button type="submit" class="btn btn-primary btn-color">Đăng nhập</button>
-      </nav>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-background">
+      <div class="container">
+        <a class="navbar-brand text-facebook" href="#"><strong>facebook</strong></a>
+        <form>
+          <div class="form-group">
+                <div class="form-row">
+                  <div class="col">
+                    <label class="text-light"><small>Email hoặc điện thoại</small></label>
+                  </div>
+                  <div class="col">
+                    <label class="text-light"><small>Mật khẩu</small></label>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col">
+                    <input type="text" required="">
+                  </div>
+                  <div class="col">
+                    <input type="Password" required="">
+                    <div class="form-row">
+                      <label class="text-light align p-2"><small>Quên tài khoản?</small></label>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <button class="btn-color">Đăng nhập</button>
+                  </div>
+                </div>
+            </div>
+        </form>
+      </div>  
+    </nav>
     <div class="container">
       <div class="row">
         <div class="col-md-7">
@@ -53,7 +74,7 @@
 
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-5">
           <form>
             <h2>Tạo tài khoản mới</h2>
             <p>Nhanh chóng và dễ dàng</p>
@@ -64,8 +85,8 @@
                     <input type="text" class="form-control" placeholder="Tên của bạn" required="">
                   </div>
                   <div class="col">
-                    <label>Tên</label>
-                    <input type="text" class="form-control" placeholder="Tên của bạn" required="">
+                    <label>Họ</label>
+                    <input type="text" class="form-control" placeholder="Họ của bạn" required="">
                   </div>
                 </div>
                 </div>
@@ -99,7 +120,7 @@
                 <label><small>Bằng cách nhấp vào Đăng ký, bạn đồng ý với Điều khoản, Chính sách dữ liệu và Chính sách cookie của chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua SMS và hủy nhận bất kỳ lúc nào.</small></label>
               </div>
               <div class="form-group">
-              <button class="btn btn-success">Đăng ký</button>
+              <button class="btn btn-success btn-block">Đăng ký</button>
             </div>
             </div>
           </form>
